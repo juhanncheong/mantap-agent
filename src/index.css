@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+html, body, #root {
+  height: 100%;
+}
+
+select {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.users-table-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(99, 102, 241, 0.35) rgba(255, 255, 255, 0.04);
+}
+
+.users-table-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.users-table-scroll::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 999px;
+}
+
+.users-table-scroll::-webkit-scrollbar-thumb {
+  background: rgba(99, 102, 241, 0.35);
+  border-radius: 999px;
+}
+
+.users-table-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 102, 241, 0.5);
+}
